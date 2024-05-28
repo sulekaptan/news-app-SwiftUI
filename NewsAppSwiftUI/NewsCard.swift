@@ -5,7 +5,6 @@
 //  Created by Şule Kaptan on 14.05.2024.
 //
 
-
 import SwiftUI
 import Kingfisher
 
@@ -13,13 +12,7 @@ struct NewsCard: View {
     var news: NewsViewModel
     
     @State private var isNavigationActive: Bool = false
-    
-    init(news: NewsViewModel) {
-        self.news = news
-        // Resmin URL'sini kontrol etmek için print
-        print("URL: \(news.urlToImage)")
-    }
-    
+
     var body: some View {
         ZStack {
             HStack(spacing: 2) {
@@ -36,8 +29,7 @@ struct NewsCard: View {
                         .frame(width: 120, height: 120)
                         .cornerRadius(20)
                 }
-
-                
+           
                 VStack(alignment: .leading, spacing: 5) {
                     Text(news.news.title ?? "No Title")
                         .bold()

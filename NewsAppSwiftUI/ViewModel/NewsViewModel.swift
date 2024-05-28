@@ -5,7 +5,6 @@
 //  Created by Şule Kaptan on 24.05.2024.
 //
 
-
 import Foundation
 
 class NewsViewModel: ObservableObject, Identifiable {

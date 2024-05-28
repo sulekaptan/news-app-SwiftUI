@@ -27,11 +27,6 @@ class NetworkManager {
             
             let newsResponse = try? JSONDecoder().decode(ArticlesResponse.self, from: data)
             newsResponse == nil ? completion(.failure(.dataParseError)) : completion(.success(newsResponse!.articles))
-//            guard let newsResponse = try? JSONDecoder().decode([ArticlesResponse].self, from: data) else {
-//                return completion(.failure(.dataParseError))
-//            }
-//
-//            completion(.success(newsResponse))
         }.resume()
     }
     

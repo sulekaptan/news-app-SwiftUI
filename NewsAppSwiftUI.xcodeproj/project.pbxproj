@@ -28,7 +28,7 @@
 		E41C7FE02BEEB17200CD61B6 /* NewsAppSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NewsAppSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E41C7FE32BEEB17200CD61B6 /* NewsAppSwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsAppSwiftUIApp.swift; sourceTree = "<group>"; };
 		E41C7FE52BEEB17200CD61B6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		E41C7FE72BEEB17300CD61B6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E41C7FE72BEEB17300CD61B6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = NewsAppSwiftUI/Assets.xcassets; sourceTree = SOURCE_ROOT; };
 		E41C7FEA2BEEB17300CD61B6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		E44F46C92C0107AB00DBD972 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
 		E44F46CC2C012BA600DBD972 /* NewsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsViewModel.swift; sourceTree = "<group>"; };
@@ -86,7 +86,6 @@
 				E4FC9AF92BF375EF007DA882 /* NewsModel.swift */,
 				E41C7FE92BEEB17300CD61B6 /* Preview Content */,
 				E4B6C5102BF6AA6E00310F0F /* FavoriteRow.swift */,
-				E41C7FE72BEEB17300CD61B6 /* Assets.xcassets */,
 				E4B6C5122BF7F12000310F0F /* NewsDetailView.swift */,
 			);
 			path = NewsAppSwiftUI;
@@ -128,6 +127,7 @@
 		E4D187482C03AB6100D7D32F /* Assets */ = {
 			isa = PBXGroup;
 			children = (
+				E41C7FE72BEEB17300CD61B6 /* Assets.xcassets */,
 			);
 			path = Assets;
 			sourceTree = "<group>";
