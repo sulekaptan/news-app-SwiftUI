@@ -7,25 +7,26 @@
 
 import Foundation
 
-struct NewsModel: Codable, Identifiable {
-    var id = UUID()
+struct NewsModel: Decodable {
+//    var id = UUID()
     var source: ArticleSource?
     var author: String?
     var title: String?
     var description: String?
     var url: String?
     var urlToImage: String?
-    var publishedAt: String?
-    var content: String?
+//    var publishedAt: String?
+//    var content: String?
 }
 
-struct ArticleSource: Codable {
+struct ArticleSource: Decodable {
     var id: String?
     var name: String?
 }
 
-struct ArticlesResponse: Codable {
-    var status: String?
-    var totalResults: Int?
-    var articles: [NewsModel]?
+struct ArticlesResponse: Decodable {
+    var status: String
+    var totalResults: Int
+    var articles: [NewsModel]
 }
+
