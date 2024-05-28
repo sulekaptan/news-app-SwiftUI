@@ -12,10 +12,11 @@ struct FavoritesView: View {
     
     var body: some View {
         Text("No favorites yet!")
-}
-
-struct FavoritesView_Previews: PreviewProvider {
-    static var previews: some View {
-        FavoritesView()
+    }
+    
+    struct FavoritesView_Previews: PreviewProvider {
+        static var previews: some View {
+            FavoritesView()
+        }
     }
 }
